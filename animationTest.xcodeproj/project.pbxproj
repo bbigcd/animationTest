@@ -15,6 +15,7 @@
 		2A0ED2CA1D40CC6300AFD6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0ED2C81D40CC6300AFD6AF /* LaunchScreen.storyboard */; };
 		2A0ED2D51D40CC6400AFD6AF /* animationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ED2D41D40CC6400AFD6AF /* animationTestTests.m */; };
 		2A0ED2E01D40CC6400AFD6AF /* animationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ED2DF1D40CC6400AFD6AF /* animationTestUITests.m */; };
+		2A0ED2F01D40CC9200AFD6AF /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0ED2EF1D40CC9200AFD6AF /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2A0ED2DB1D40CC6400AFD6AF /* animationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0ED2DF1D40CC6400AFD6AF /* animationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationTestUITests.m; sourceTree = "<group>"; };
 		2A0ED2E11D40CC6400AFD6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0ED2EE1D40CC9200AFD6AF /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		2A0ED2EF1D40CC9200AFD6AF /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				2A0ED2BD1D40CC6300AFD6AF /* AppDelegate.h */,
 				2A0ED2BE1D40CC6300AFD6AF /* AppDelegate.m */,
+				2A0ED2EE1D40CC9200AFD6AF /* AnimationView.h */,
+				2A0ED2EF1D40CC9200AFD6AF /* AnimationView.m */,
 				2A0ED2C01D40CC6300AFD6AF /* ViewController.h */,
 				2A0ED2C11D40CC6300AFD6AF /* ViewController.m */,
 				2A0ED2C31D40CC6300AFD6AF /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A0ED2C21D40CC6300AFD6AF /* ViewController.m in Sources */,
+				2A0ED2F01D40CC9200AFD6AF /* AnimationView.m in Sources */,
 				2A0ED2BF1D40CC6300AFD6AF /* AppDelegate.m in Sources */,
 				2A0ED2BC1D40CC6300AFD6AF /* main.m in Sources */,
 			);
